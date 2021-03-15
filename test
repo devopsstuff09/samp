@@ -1,1 +1,9 @@
 hey this is the file created from GUI
+
+
+.ssh/config
+
+Host github.com
+  Port 22
+  IdentityFile ~/.ssh/github_id
+  StrictHostkeychecking no
